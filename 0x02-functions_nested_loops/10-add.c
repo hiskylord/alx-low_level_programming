@@ -1,4 +1,5 @@
-#include "mail.h"
+#include "main.h"
+
 /**
  * add - Add two integers
  * @x: int type number
