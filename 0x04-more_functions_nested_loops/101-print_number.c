@@ -17,7 +17,8 @@ num *= -1;
 _putchar('-');
 }
 /* count up */
-m,c = 1;
+m = 1;
+c = 1;
 while (c)
 {
 if (num / (m * 10) > 0)
