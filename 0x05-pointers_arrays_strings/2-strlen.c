@@ -8,6 +8,8 @@ int _strlen(char *s)
 {
 int x = 0;
 while (s[x])
-    x++;
+{
+x++;
+}
 return (x);
 }
