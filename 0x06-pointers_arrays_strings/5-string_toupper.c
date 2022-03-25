@@ -11,5 +11,6 @@ if (str[i] <= 'z' && str[i] >= 'a')
 {
 str[i] -= 32;
 }
+}
 return (str);
 }
