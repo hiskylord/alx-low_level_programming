@@ -5,10 +5,10 @@
  * @src: pointer source
  * Return: void
  */
-char *_strcat(char *s1, char *s2)
+char *_strcat(char *dest, char *src)
 {
 int j = -1, i;
-for (i = 0; s1[i] != '\0'; i++)
+for (i = 0; dest[i] != '\0'; i++)
 ;
 do 
 {
@@ -16,8 +16,8 @@ j++;
 dest[i] = src[a];
 i++;
 } 
-while (s2[j] != '\0')
+while (src[j] != '\0')
 {
-return (s1);
+return (dest);
 }
 }
