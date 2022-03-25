@@ -1,5 +1,5 @@
-#tring_toupper - capitalize a string
-* @str: pointer
+#include "main.h"
+/** str: pointer
 * Return: capitalzied string
 */
 char *string_toupper(char *str)
