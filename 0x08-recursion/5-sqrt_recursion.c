@@ -7,7 +7,7 @@
  */
 int _sqrt_recursion(int n)
 {
-  return (halp(n, 1));
+return (halp(n, 1));
 }
 /**
  * halp - helper function to solve _sqrt_recursion
@@ -17,18 +17,18 @@ int _sqrt_recursion(int n)
  */
 int halp(int c, int i)
 {
-  int square;
-  square = i * i;
-  if (square == c)
-    {
-      return (i);
-    }
-  else if (square < c)
-    {
-      return (halp(c, i + 1));
-    }
-  else
-    {
-      return (-1);
-    }
+int square;
+square = i * i;
+if (square == c)
+{
+return (i);
+}
+else if (square < c)
+{
+return (halp(c, i + 1));
+}
+else
+{
+return (-1);
+}
 }
