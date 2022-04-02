@@ -23,7 +23,7 @@ num = strtol(argv[i], &p, 10);
 if (!*p)
 {
 total += num;
-}	  
+}
 else
 {
 printf("Error\n");
