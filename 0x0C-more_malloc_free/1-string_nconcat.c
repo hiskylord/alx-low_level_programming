@@ -31,7 +31,7 @@ if (s2 == NULL)
 s2 = "";
 }
 if (n < _strlen(s2))
-{	
+{
 m = malloc(_strlen(s1) + n * sizeof(char) + 1);
 }
 else
