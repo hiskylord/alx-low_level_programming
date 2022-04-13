@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * get_op_func - select the correct operation function asked by user
  * @s: operator argument
@@ -21,4 +22,6 @@ while (ops[i].op != NULL && *(ops[i].op) != *s)
 i++;
 return (ops[i].f);
 }
+printf("Error\n");
+exit(99);
 }
