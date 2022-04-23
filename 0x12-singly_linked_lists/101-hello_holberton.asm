@@ -3,5 +3,5 @@
 int main()
 {
 write(STDOUT, "Hello, Holberton\n", 13);
-_exit(0);
+exit(0);
 }
