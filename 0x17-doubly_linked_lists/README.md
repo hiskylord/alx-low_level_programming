@@ -1,2 +1,1 @@
-# Doubly Linked Lists
-
+C - Doubly linked lists
